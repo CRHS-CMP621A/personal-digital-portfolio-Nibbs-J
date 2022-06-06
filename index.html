@@ -1,14 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <!-- STYLES -->
     <link href="style.css" rel="stylesheet" />
-
-    <!-- Title -->
-    <title>About Me</title>
+    <title>Home Page</title>
   </head>
 
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <div class="name"><a href="index.html"><i>Joe Driscoll</i></a></div>
+        <div class="tag-line">
+          Website Building Extraordinaire
+        </div>
+        <div class="navbar">
+          <a href="https://replit.com/@JoeDriscoll" target="_blank">My REPL Profile</a>
+          <a href="Images/Resume.pdf" target="_blank">Resume</a>
+          <a href="#contact-me">Contact Me</a>
+          <div class="dropdown">
+            <button class="dropbtn">Favourite Websites</button>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://www.youtube.com" target="_blank">Youtube</a>
+              <a href="https://www.netflix.com" target="_blank">Netflix</a>
+              <a href="https://www.imdb.com" target="_blank">IMDB</a>
+            </div>
+          </div>  
+        </div>
+      </header>
+      <main class="main-content">
+        <aside class="about-me">
+          <img
+            class="img-profile"
+            src="Images/Mike.jpg"
+            alt="Picture of Mike"
+          />
+          <div class="about-paragraph">
+           Slightly skilled in coding in different languages such as HTML, CSS, JavaScript, and Python. Going into UPEI for computer science with a specilization in game design.
+          </div>
+          <img
+          class="img-profile_2"
+          src="Images/Sully.png"
+          alt="Picture of Sully"
+        />
+        </aside>
+        <article class="showcase showcase-1">
+          <h3 class="showcase-title">Python</h3>
+          <h4 class="showcase-subhead">Text Based Adventure</h4>
+          <img width="400px" height="325px" src="Images/Prison.png" alt="prison project"></img>
+          <p class="showcase-descript">
+            Become a prisoner and attempt to escape in this python text-based adventure game.
+          </p>
+          <a class="showcase-link" href="showcase1.html"> Find out more</a>
+        </article>
+        <article class="showcase showcase-2">
+          <h3 class="showcase-title">JavaScript</h3>
+          <h4 class="showcase-subhead">Balloon Pop Interactive Experience</h4>
+          <img
+            class="img-showcase"
+            src="Images/showcaseImg_1.png"
+            alt="showcase of Balloon Pop"
+          />
+          <p class="showcase-descript">
+            This is an example of some early work I did with JavaScript, in which I made an interactive progam you can pop a jpeg of a balloon.
+          </p>
+          <a class="showcase-link" href="Balloon_Pop/Balloon.html">Try It!</a>
+        </article>
+        <article class="showcase showcase-3">
+          <h3 class="showcase-title">Location</h3>
+          <h4 class="showcase-subhead">Where I'm Based Out Of</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44132.55810983811!2d-62.99201042379865!3d46.26444250769231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5e4e5c82da0c39%3A0x1738eab0e64033e9!2sDonagh%2C%20PE%20C1B%200X1!5e0!3m2!1sen!2sca!4v1654138609733!5m2!1sen!2sca" 
+          width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p class="showcase-descript">
+            This is a map showing Donagh, P.E.I, where I'm from!
+          </p>
+          <a class="showcase-link" href="location.html">Click to Learn More!</a>
+        </article>
+      </main>
+      <footer class="footer">
+        <address id="contact-me">
+          <p class="mail-link">
+            <a href="mailto:jodr0749@cloud.edu.pe.ca">Contact me</a>
+          </p>
+          <div class="social-media">
+            <p>Instagram</p>
+            <p>Twitter</p>
+            <p>Other</p>
+          </div>
+        </address>
+        <div class="website-info">
+          <p class="web-author">Website constructed by Joe Driscoll</p>
+          <p class="web-recent">Last updated June 2022</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
